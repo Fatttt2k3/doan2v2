@@ -1,0 +1,24 @@
+.title-df {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .bg-df {
+    width: 100%;
+    height: 100vh; /* Chiều cao bằng chiều cao màn hình */
+    object-fit: cover; /* Điều chỉnh kích thước ảnh để phủ kín mà không bị biến dạng */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Đặt ảnh nền phía sau các nội dung khác */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao bằng chiều cao màn hình */
+  }

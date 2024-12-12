@@ -1,0 +1,9 @@
+.List-item-type{
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid rgb(152, 152, 152);
+    
+}
