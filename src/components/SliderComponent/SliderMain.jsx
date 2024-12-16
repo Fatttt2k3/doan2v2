@@ -13,7 +13,6 @@ const SliderMain = ({arrImages}) => {
       slidesToScroll: 1
       };
   return (
-    <div style={{backgroundColor:"rgb(230, 230, 230)"}}>
     <div style={{width: "1000px", margin:"0 auto"}}>
     <Slider settings={settings}>
         {arrImages.map((image) => {
@@ -25,7 +24,7 @@ const SliderMain = ({arrImages}) => {
         })}
     </Slider>
     </div>
-    </div>
+  
   )
 }
 

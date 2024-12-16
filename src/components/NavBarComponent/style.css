@@ -1,0 +1,15 @@
+.WrapperLabelText{
+    color: rgb(56, 56, 61);
+    font-size: 14px;
+    font-weight: 500;
+}
+.WrapperTextvalue{
+    color: rgb(56, 56, 61);
+    font-size: 14px;
+    font-weight: 500;
+}
+.WrapperContent{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

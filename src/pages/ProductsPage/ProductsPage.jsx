@@ -4,7 +4,6 @@ import HeaderComponent from "../../components/HeaderComponent/HeaderComponent";
 const ProductsPage = () => {
     return(
         <div>
-            <HeaderComponent />
 
         </div>
     )

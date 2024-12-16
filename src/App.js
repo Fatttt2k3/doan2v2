@@ -2,9 +2,11 @@ import React, { Fragment } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import {routes} from './routes'
 import DefaultComponent from './components/DefaultComponent/DefaultComponent'
+import HeaderComponent from './components/HeaderComponent/HeaderComponent'
 export function App() {
   return (
     <>
+    <HeaderComponent />
       <div>
         <Router>
           <Routes>
@@ -14,7 +16,10 @@ export function App() {
               return(
                 <Route path={route.path} element={
                   <Layout>
-                    <Page />
+                                       
+                    <Page  />
+                    
+
                   </Layout>
                   } />
               )
@@ -22,6 +27,7 @@ export function App() {
           </Routes>
         </Router>
       </div>
+
     </>
   )
 }

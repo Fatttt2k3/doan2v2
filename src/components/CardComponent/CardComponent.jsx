@@ -8,7 +8,7 @@ const CardComponent = () => {
   return (  
     <Card
       hoverable
-      style={{ width: 240 }}
+      style={{ width: 240}}
       bodyStyle={{padding:"10px"}}
       cover={<img alt="example" src="https://product.hstatic.net/200000722513/product/artboard_3_b5ccc140878a433db58322a5adeb8b3c_grande.png" />}
     >

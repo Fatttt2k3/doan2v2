@@ -4,7 +4,6 @@ import HeaderComponent from '../../components/HeaderComponent/HeaderComponent'
 const OrderPage = () => {
   return (
     <div>
-      <HeaderComponent />
       
       OrderPage
     </div>
