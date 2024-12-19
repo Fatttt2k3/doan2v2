@@ -21,7 +21,6 @@ const TypeProductPage = () => {
             <CardComponent />
             <CardComponent />
             <CardComponent />
-            <CardComponent />
 
         </Col>
     </Row>
